@@ -17,6 +17,12 @@ export const product =defineType({
             options:{source:"name"}
         },
         {
+            name: "category",
+            title: "Category",
+            type: "reference",
+            to: [{ type: "category" }],
+          },
+        {
             name:"images",
             title:"Images",
             type:"array",

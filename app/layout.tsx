@@ -29,7 +29,6 @@ export default function RootLayout({
         {/* Include meta tags, title, or other head elements if needed */}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <Navbar />
         {children}
       </body>
     </html>
